@@ -1,4 +1,30 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
+/* Created by: Gustav I
+* Created on: April 25, 2024
+* This file contains the CSS code for index.html
 */
+
+h1 {
+  text-align : center;
+  background-color: dimgrey;
+  color : #ffff;
+  padding : 20px;
+}
+
+h3 {
+  text-align : center;
+  background-color : dimgrey;
+  color : rgb(136, 8, 8);
+}
+
+h4 {
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  color : #ffff;
+  padding : 10px;
+  border-radius : 10px;
+}
+
+

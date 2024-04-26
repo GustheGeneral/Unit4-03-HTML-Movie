@@ -1,9 +1,44 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
+<html lang="en">
+
+<head>
+  <!--Meta Data-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Checker </title>
+  <meta author="Gustav Ihlenfeld">
+  <meta class="ICD2O - Technology and Innovations">
+</head>
+<!--Stylesheet-->
+<link rel="stylesheet" href="./css/style.css">
+
+<!--favicon-->
+<link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+<link rel="manifest" href="./favicon_io/site.webmanifest">
+
+<body>
+  <!--Header-->
+  <h1><i><b>Age Checker🎥</b></i></h1>
+  <h3><u><b>(MOVIE BACKGROUND CHECKER)</b></u></h3>
+  <h4>Creator : Gustav Ihlenfeld</h4>
+  <h4>Class : ICD2O</h4>
+
+  <!--Image-->
+  <img src="./images/age.png" alt="age" style="float: right; margin: 0 10px;">
+
+  <p><b><u>Input your age below:</u></b></p>
+
+  <!--Input-->
+  <label for="age"><b><u>Age:</u></b></label>
+  <input type="number" id="age">
+  <br></br>
+
+  <!--Javascript function-->
+    <button onclick="ageCheck()">Submit</button>
+    <p id="result"></p> <!-- Display the result here -->
+    <script src="/js/script.js"></script>
   </body>
-</html>
+
+  </html>
